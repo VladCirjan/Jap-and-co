@@ -1,0 +1,149 @@
+@use 'sass/menu';
+@use 'sass/contact';
+
+
+// User reset
+
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+// variables
+$header-height: 8em;
+$footer-height: 4em;
+$header-width: 100vw;
+$footer-width: 100vw;
+
+
+/* body {
+    height: 100vh;
+} */
+
+
+
+/* APP */
+
+#app{
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: nowrap;*/
+    height: 100vh;
+    /*justify-content: center;*/
+    background-color: #e6e6e64d;
+}
+
+/* HEADER/FOOTER */
+header {
+   /* top: 0; left: 0; 
+    height: $header-height;*/
+    width: $header-width;
+}
+
+main {
+   /* z-index: -1;
+    min-height: 50em;
+    position: relative;
+    width: 100%;
+ float: left;*/
+    padding: 1em;
+    flex-grow: 1;
+    overflow: auto; 
+
+}
+
+/* CONNEXION/INSCRIPTION */
+
+.logister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_login {
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    font-size: 50px;
+    text-decoration: underline;
+    //width: 100%;
+    //height: 70px;
+    //padding: 10px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.title_register {
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    font-size: 50px;
+    text-decoration: underline;
+    //width: 100%;
+    //height: 70px;
+    margin-bottom: 3vh;
+    color: white;
+}
+
+.allform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.infos {
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.divsubmitbtn {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnsubmit {
+    font-size: 20px;
+    font-weight: bold;
+    height: 7vh;
+    cursor: pointer;
+    background-color:#fc2e2e ;
+    color: #ffb6c1;
+    border: none;
+    border-radius: 12px;
+}
+
+.btnsubmit:hover {
+    background-color: #ffb6c1;
+    color: #fc2e2e;
+}
+
+.input_register {
+    width: 210px;
+    height: 50px;
+}
+
+.input_login {
+    width: 210px;
+    height: 60px;
+}
+
+.display_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_msg {
+    font-style: italic;
+    color: red;
+}
