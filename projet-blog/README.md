@@ -58,11 +58,11 @@ Pour le coté Front-end voici ce que nous avons utilisé :
 
 1. Vous devrai cloner notre [repo](https://github.com/O-clock-Olduvai/projet-blog) en suivant les screenshots :) 
 
-![img](src\assets\Screenshot.png)
+![img](src/assets/Screenshot.png)
 
-![img](src\assets/Screenshot2.png)
+![img](src/assets/Screenshot2.png)
 
-2. 
+1. 
 ```bash
 git clone (collé ce que vous venez de copier)
 ```
